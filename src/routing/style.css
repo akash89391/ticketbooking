@@ -1,0 +1,285 @@
+/* Title Styles */
+.title {
+    font-family: 'Cursive', sans-serif;
+    font-style: italic;
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(255, 71, 87, 0.6);
+    text-align: center;
+    margin-top: 30px;
+}
+
+.subtitle {
+    font-family: 'Arial', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Movie Grid Styles */
+.movies-container {
+    margin: 0 10%;
+}
+
+.movie-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.movie-image:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+/* Button Styles */
+.book-now-button {
+    font-size: 1.2rem;
+    padding: 14px 28px;
+    background: #ff4757;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.book-now-button:hover {
+    background: #e8413a;
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .movies-container {
+        margin: 0 5%;
+    }
+
+    .movie-image {
+        width: 100%;
+    }
+}
+
+/* Contact Page Styling */
+/* Contact Page Styling */
+.contact-container {
+    max-width: 100%;
+    margin: 50px auto;
+    padding: 30px;
+    background: #1e1e1e;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+.contact-container h1,
+.contact-container h2 {
+    color: #ff4757;
+    font-family: "Poppins", sans-serif;
+    text-shadow: 2px 2px 3px rgba(255, 71, 87, 0.5);
+}
+
+/* Contact Details */
+.contact-details {
+    background: #2d2d2d;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 10px rgba(255, 71, 87, 0.2);
+}
+
+.contact-details p {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+/* Form Styling */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    background: #333;
+    color: white;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    background: #444;
+    border: 1px solid #ff4757;
+}
+
+/* Button with Modern Hover Effect */
+.contact-form button {
+    background: #ff4757;
+    color: white;
+    font-size: 1.2em;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.contact-form button:hover {
+    background: #e8413a;
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-container {
+        width: 90%;
+        padding: 20px;
+    }
+}
+
+  /* About Page Styling */
+/* About Page Styling */
+.about-container {
+    max-width: 100%;
+    margin: 50px auto;
+    padding: 30px;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.2);
+    text-align: center;
+}
+
+.about-container h1,
+.about-container h2 {
+    color: #ffcc00;
+    text-shadow: 2px 2px 5px rgba(255, 204, 0, 0.8);
+    font-family: "Arial", sans-serif;
+    margin-bottom: 15px;
+}
+
+.about-container p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.2);
+}
+
+/* Movie Reel-Style Lists */
+.about-container ul,
+.about-container ol {
+    text-align: left;
+    margin: 20px auto;
+    padding: 0;
+    list-style: none;
+}
+
+.about-container ul li,
+.about-container ol li {
+    font-size: 1.1em;
+    background: rgba(255, 204, 0, 0.1);
+    padding: 12px 18px;
+    margin: 10px 0;
+    border-left: 5px solid #ffcc00;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.about-container ul li:hover,
+.about-container ol li:hover {
+    background: #ffcc00;
+    color: black;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-container {
+        width: 90%;
+        padding: 20px;
+    }
+}
+/* Upcoming Movies Page Styling */
+.upcoming-container {
+    background: #121212; /* Dark background for contrast */
+    padding: 50px 0;
+  }
+  
+  .upcoming-title {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+    color: gray;
+    text-shadow: 1px 2px 2px white;
+    margin-bottom: 40px;
+  }
+  
+  /* Movie Card Grid Layout */
+  .movies-grid {
+    margin: 0 5%;
+  }
+  
+  /* Styling for each movie card */
+  .movie-card {
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #1c1c1c;
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+  }
+  
+  /* Image Styling */
+  .movie-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-bottom: 3px solid #f39c12;
+    transition: opacity 0.3s ease;
+  }
+  
+  .movie-card:hover .movie-image {
+    opacity: 0.9;
+  }
+  
+  /* Button Styling */
+  .book-button {
+    background: #f39c12;
+    color: black;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 100%;
+    transition: transform 0.3s ease, background 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .book-button:hover {
+    background: #e67e22;
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .movies-grid {
+      margin: 0 10%;
+    }
+  
+    .movie-card {
+      margin-bottom: 20px;
+    }
+  }
+  
